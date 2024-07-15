@@ -1,0 +1,55 @@
+h2 {
+  color: #3a4059;
+  text-align: center;
+}
+
+/* aboutUs */
+
+.aboutUs_content {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+  .about_left img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .about_right {
+    padding: 3em;
+
+    & p {
+      margin: 2em 0;
+    }
+  }
+}
+
+/* mission */
+
+.mission_content {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .mission_left {
+    /* width: 70%; */
+    padding: 2em;
+
+    & p {
+      margin: 2em 0;
+    }
+  }
+}
+
+.news {
+  padding: 1em 0 1em 0;
+}

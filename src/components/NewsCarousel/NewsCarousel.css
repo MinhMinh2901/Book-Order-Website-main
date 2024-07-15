@@ -1,0 +1,6 @@
+.news_carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+  margin: 0 4em 3em 4em;
+}
